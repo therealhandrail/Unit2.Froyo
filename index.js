@@ -30,12 +30,10 @@ console.log(flavorTypes)
 // I found this code from https://dinma.medium.com/counting-duplicate-values-in-javascript-arrays-b2432f64edf9
 // I changed it to work with this to count each item
 
-// This code takes the items from the array above, dumps it into an empty Object,
-// then assigns the value of 1 to each item, if it find more than 1 of an item,
-// it adds 1 to the value, keeping track of how many times something is in the array.
-// after the values are assigned, it returns them so they can be console logged as an Object.
-
-// might not be the best explanation but I understand what its doing lmao
+/* This code takes the items from the array above, dumps it into an empty Object using an arrow function,
+then assigns the value of 1 to each item, if it find more than 1 of an item,
+it adds 1 to the value, keeping track of how many times something is in the array.
+after the values are assigned, it returns them so they can be console logged as an Object. */
 
 const countItems = (flavorTypes) => {
     const counts = {};
